@@ -10,9 +10,9 @@ import ProjectsPreview from './components/ProjectsPreview';
 import ClientsSection from './components/ClientsSection';
 import CTABanner from './components/CTABanner';
 import LogoMarquee from './components/LogoMarquee';
-import Testimonials from './components/testimonials';
 import FAQSection from './components/FAQSection';
 import IndustriesSection from './components/IndustriesSection';
+import Testimonials from './components/Testimonials';
 
 export default function HomePage() {
   return (
