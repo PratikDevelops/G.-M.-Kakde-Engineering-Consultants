@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #0B1F3A;
+  --primary: #0B1F3A;
+  --primary-foreground: #FFFFFF;
+  --secondary: #335C81;
+  --secondary-foreground: #FFFFFF;
+  --accent: #D4AF37;
+  --accent-foreground: #0B1F3A;
+  --muted: #F4F6F9;
+  --muted-foreground: #6B7A8F;
+  --card: #FFFFFF;
+  --card-foreground: #0B1F3A;
+  --border: #E2E8F0;
+  --input: #E2E8F0;
+  --ring: #335C81;
+  --radius: 0.5rem;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    border-color: var(--border);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+}
+
+@layer utilities {
+  [class*='bg-primary'] .text-primary-foreground\/40,
+  [class*='bg-primary'] .text-primary-foreground\/50,
+  [class*='bg-primary'] .text-primary-foreground\/60,
+  [class*='bg-primary'] .text-primary-foreground\/70,
+  [class*='bg-primary'] .text-primary-foreground\/80 {
+    color: rgba(255, 255, 255, 0.96) !important;
+  }
+
+  [class*='bg-primary'] .border-primary-foreground\/20,
+  [class*='bg-primary'] .border-primary-foreground\/30,
+  [class*='bg-primary'] .border-primary-foreground\/40 {
+    border-color: rgba(255, 255, 255, 0.28) !important;
+  }
+
+  .text-hero-xl {
+    font-size: clamp(2.8rem, 6vw, 5.5rem);
+    line-height: 1.05;
+  }
+
+  .text-section-xl {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1.1;
+  }
+
+  .grain-overlay {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  }
+
+  .beam-border-h {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(212, 175, 55, 0.15);
+    overflow: hidden;
+  }
+
+  .beam-border-h::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: linear-gradient(to right, transparent, #D4AF37, transparent);
+    transform: translateX(-100%);
+    animation: beam-slide 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    opacity: 0.7;
+  }
+
+  @keyframes beam-slide {
+    0% { transform: translateX(-100%); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { transform: translateX(100%); opacity: 0; }
+  }
+
+  .gold-shimmer {
+    background: linear-gradient(135deg, #D4AF37 0%, #F0CC55 50%, #B8960C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-hover {
+    transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px -12px rgba(11, 31, 58, 0.15);
+  }
+
+  .nav-blur {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+  }
+
+  .parallax-bg {
+    will-change: transform;
+  }
+
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s cubic-bezier(0.23, 1, 0.32, 1), transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .animate-on-scroll.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .gold-line {
+    width: 3rem;
+    height: 3px;
+    background: linear-gradient(90deg, #D4AF37, #F0CC55);
+    border-radius: 2px;
+  }
+
+  .service-card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 1024px) {
+    .service-card-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .service-card-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
