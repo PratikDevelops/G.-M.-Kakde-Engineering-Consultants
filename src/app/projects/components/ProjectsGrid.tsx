@@ -49,11 +49,11 @@ const projects: Project[] = [
     year: '2014',
     client: 'Om Shivshankar C.H.S.',
     area: '72,494 sq.ft. (108 Tenements)',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab',
+    image: '/assets/images/Om Shiv Shankar CHS Rehabilitation.jpeg',
     alt: 'High-rise premium residential tower construction using robust structural framework',
     gallery: [
-      { src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd', alt: 'Structural tower construction progress showing multiple upper floors' },
-      { src: 'https://images.unsplash.com/photo-1513694203232-719a280e022f', alt: 'Interior layout execution and modular kitchen fittings setup' }
+      { src: '/assets/images/Om Shiv Shankar CHS Rehabilitation 2.jpeg', alt: 'Structural tower construction progress showing multiple upper floors' },
+      { src: '/assets/images/Om Shiv Shankar CHS Rehabilitation 3.jpeg', alt: 'Interior layout execution and modular kitchen fittings setup' }
     ]
   },
   {

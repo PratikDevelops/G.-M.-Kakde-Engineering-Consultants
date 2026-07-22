@@ -152,7 +152,7 @@ export default function ServicePage({
               )}
             </div>
             <div className="lg:col-span-7">
-              <div className="relative aspect-[16/10] w-full rounded-sm overflow-hidden border border-border bg-card grayscale hover:grayscale-0 transition-all duration-700">
+              <div className="relative aspect-[16/10] w-full rounded-sm overflow-hidden border border-border bg-card  transition-all duration-700">
                 <Image
                   src={service.overviewImage || '/images/placeholder.jpg'}
                   alt={`${service.title} Overview Blueprint`}

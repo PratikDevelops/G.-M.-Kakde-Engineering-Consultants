@@ -50,7 +50,7 @@ export default function AboutHero() {
             <span className="text-accent text-xs font-bold tracking-[0.4em] uppercase">Our Story</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground tracking-tight leading-tight mb-6">
-            Four Decades <span className="gold-shimmer">of</span><br />
+            Four <span className="gold-shimmer"> Decades of</span><br />
             Engineering Legacy
           </h1>
           <p className="text-primary-foreground/60 text-lg leading-relaxed max-w-2xl">

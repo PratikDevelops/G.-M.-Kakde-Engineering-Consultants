@@ -4,9 +4,10 @@ import AppLogo from '@/components/ui/AppLogo';
 
 const footerLinks = [
   { label: 'Services', href: '/services' },
+  { label: 'Awards', href: '/awards' },
   { label: 'Contact', href: '/contact' },
-  { label: 'Privacy Policy', href: '#' },
-  { label: 'Terms', href: '#' },
+  { label: 'Privacy Policy', href: '/privacy-policy' },
+  { label: 'Terms', href: '/terms' },
 ];
 
 export default function Footer() {

@@ -28,7 +28,7 @@ export default function ContactMap() {
               Opp. IIT Main Gate, Powai, Mumbai - 400076
             </p>
             <a
-              href="https://maps.google.com/?q=IIT+Powai+Mumbai"
+              href="https://www.google.com/maps/place/G.+M.+Kakde+Engineering+Consultants+Pvt.+Ltd./@19.1216261,72.9154307,16z/data=!4m14!1m7!3m6!1s0x3be7c7ee6ca3b693:0xd10a37913bc9cdcb!2sG.+M.+Kakde+Engineering+Consultants+Pvt.+Ltd.!8m2!3d19.1216261!4d72.9154307!16s%2Fg%2F1tz946cm!3m5!1s0x3be7c7ee6ca3b693:0xd10a37913bc9cdcb!8m2!3d19.1216261!4d72.9154307!16s%2Fg%2F1tz946cm?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-primary text-primary-foreground text-xs font-bold uppercase tracking-widest rounded-sm hover:bg-secondary transition-colors"

@@ -1,4 +1,3 @@
-// data/services.ts
 
 export interface ProcessStep {
   title: string;
@@ -14,6 +13,7 @@ export interface Service {
   slug: string;
   code: string;
   icon: string;
+  overviewImage: string;
   title: string;
   tagline: string;
   overview: string;
@@ -31,6 +31,7 @@ export const allServices: Service[] = [
     slug: 'project-management-consultancy',
     code: 'PM',
     icon: 'BuildingOffice2Icon',
+    overviewImage: '/assets/images/services/project-management-consultancy.jpg',
     title: 'Project Management Consultancy',
     tagline: 'End-to-end delivery oversight from concept to commissioning',
     overview:
@@ -119,6 +120,7 @@ export const allServices: Service[] = [
     slug: 'structural-engineering',
     code: 'S',
     icon: 'CubeIcon',
+    overviewImage: '/assets/images/services/structural-engineering.jpg',
     title: 'Structural Engineering',
     tagline: 'Precision analysis and design for structures that endure',
     overview:
@@ -202,6 +204,7 @@ export const allServices: Service[] = [
     slug: 'architecture',
     code: 'A',
     icon: 'HomeIcon',
+    overviewImage: '/assets/images/services/architecture.jpg',
     title: 'Architecture',
     tagline: 'Design that balances function, form, and context',
     overview:
@@ -280,6 +283,7 @@ export const allServices: Service[] = [
     slug: 'urban-planning',
     code: 'UP',
     icon: 'MapIcon',
+    overviewImage: '/assets/images/services/urban-planning.jpg',
     title: 'Urban Planning',
     tagline: 'Shaping sustainable growth for cities and regions',
     overview:
@@ -362,6 +366,7 @@ export const allServices: Service[] = [
     slug: 'roads-and-bridges',
     code: 'RB',
     icon: 'TruckIcon',
+    overviewImage: '/assets/images/services/roads-and-bridges.jpg',
     title: 'Roads & Bridges',
     tagline: 'Engineering safe, efficient, and durable transport corridors',
     overview:
@@ -439,6 +444,7 @@ export const allServices: Service[] = [
     slug: 'water-supply-engineering',
     code: 'WS',
     icon: 'BeakerIcon',
+    overviewImage: '/assets/images/services/water-supply-engineering.jpg',
     title: 'Water Supply Engineering',
     tagline: 'Reliable water delivery from source to tap',
     overview:
@@ -521,6 +527,7 @@ export const allServices: Service[] = [
     slug: 'sewerage-and-stp',
     code: 'SS',
     icon: 'ArrowPathIcon',
+    overviewImage: '/assets/images/services/sewerage-and-stp.jpg',
     title: 'Sewerage & STP',
     tagline: 'Safe collection, treatment, and reuse of wastewater',
     overview:
@@ -598,6 +605,7 @@ export const allServices: Service[] = [
     slug: 'environmental-consultancy',
     code: 'EN',
     icon: 'GlobeAltIcon',
+    overviewImage: '/assets/images/services/environmental-consultancy.jpg',
     title: 'Environmental Consultancy',
     tagline: 'Balancing development with environmental responsibility',
     overview:
@@ -680,6 +688,7 @@ export const allServices: Service[] = [
     slug: 'material-testing',
     code: 'MT',
     icon: 'MagnifyingGlassIcon',
+    overviewImage: '/assets/images/services/material-testing.jpg',
     title: 'Material Testing',
     tagline: 'Verifying quality at every stage of construction',
     overview:
@@ -756,6 +765,7 @@ export const allServices: Service[] = [
     slug: 'third-party-audits',
     code: 'TPA',
     icon: 'ClipboardDocumentCheckIcon',
+    overviewImage: '/assets/images/services/third-party-audits.jpg',
     title: 'Third Party Audits',
     tagline: 'Independent verification that protects stakeholders',
     overview:
@@ -833,6 +843,7 @@ export const allServices: Service[] = [
     slug: 'real-estate-consultancy',
     code: 'RE',
     icon: 'CurrencyRupeeIcon',
+    overviewImage: '/assets/images/services/real-estate-consultancy.jpg',
     title: 'Real Estate Consultancy',
     tagline: 'Technical clarity for confident real estate decisions',
     overview:
@@ -910,6 +921,7 @@ export const allServices: Service[] = [
     slug: 'infrastructure-planning',
     code: 'IP',
     icon: 'BuildingStorefrontIcon',
+    overviewImage: '/assets/images/services/infrastructure-planning.jpg',
     title: 'Infrastructure Planning',
     tagline: 'Integrated frameworks for large-scale development',
     overview:
