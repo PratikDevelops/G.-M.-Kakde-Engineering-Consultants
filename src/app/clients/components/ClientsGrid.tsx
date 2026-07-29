@@ -19,7 +19,7 @@ const clients: Client[] = [
   { name: 'IAAI', abbr: 'IAAI', category: 'Government/Public', logo: '/assets/images/iaai logo.avif' },
   { name: 'MSRDC', abbr: 'MSRDC', category: 'Government/Public', logo: '/assets/images/msrdc logo.png' },
   { name: 'Mumbai University', abbr: 'MU', category: 'Government/Public', logo: '/assets/images/mumbai university logo.jpeg' },
-  { name: 'Dr. BAMU', abbr: 'BAMU', category: 'Government/Public', logo: '/assets/images/bamu logo.jpeg' },
+  { name: 'Dr. Babasaheb Ambedkar Marathwada University', abbr: 'Babasaheb Ambedkar Marathwada University', category: 'Government/Public', logo: '/assets/images/Babasaheb Ambedkar Marathwada University logo.jpeg' },
 
   // Education
   { name: 'Oxford International School', abbr: 'OIS', category: 'Education', logo: '/assets/images/Oxford International School Logo.png' },

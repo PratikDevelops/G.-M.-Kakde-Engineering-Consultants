@@ -6,6 +6,12 @@ import ContactOffices from './components/ContactOffices';
 import ContactFormSection from './components/ContactFormSection';
 import ContactMap from './components/ContactMap';
 
+export const metadata = {
+  title: 'Contact Us | G. M. Kakde Engineering Consultants',
+  description:
+    'Get in touch with G. M. Kakde Engineering Consultants for engineering consultancy, structural design, project management, and technical expertise. Contact our team for inquiries, consultations, and project discussions.',
+};
+
 export default function ContactPage() {
   return (
     <>

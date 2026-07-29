@@ -35,7 +35,7 @@ const milestones = [
   {
     year: '2007',
     title: 'Institutional Campus Architecture',
-    description: 'Completes major educational infrastructure designs, delivering the 724-acre master plan and sports complex blueprints for Dr. Babasaheb Ambedkar Marathwada University (BAMU).',
+    description: 'Completes major educational infrastructure designs, delivering the 724-acre master plan and sports complex blueprints for Dr. Babasaheb Ambedkar Marathwada University (Babasaheb Ambedkar Marathwada University).',
     tag: 'Achievement',
   },
   {

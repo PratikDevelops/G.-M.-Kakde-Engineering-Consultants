@@ -77,38 +77,45 @@ const awards: Award[] = [
   {
     icon: 'TrophyIcon',
     year: '2023',
-    title: 'Excellence in Engineering Award',
-    desc: 'For outstanding contribution to infrastructure development and innovative engineering solutions in Maharashtra.',
-    colSpan: 'lg:col-span-3',
+    title: 'Vijayshree Award',
+    desc: 'From India International Friendship Society, Delhi, for outstanding contributions to engineering consultancy and project management.',
+    colSpan: 'lg:col-span-2',
     accent: true,
   },
   {
     icon: 'StarIcon',
     year: '2022',
-    title: 'Best PMC Firm Award',
-    desc: 'Exceptional project management consultancy and timely delivery of complex infrastructure projects.',
+    title: 'Bharat Vikas Award',
+    desc: 'From India International Friendship Society, Delhi, for excellence in engineering consultancy and project management.',
     colSpan: 'lg:col-span-1',
   },
   {
     icon: 'BuildingOffice2Icon',
     year: '2021',
-    title: 'Infrastructure Development Award',
+    title: 'Business Excellence Award',
     desc: 'For significant contributions to urban infrastructure and smart city projects.',
     colSpan: 'lg:col-span-1',
   },
   {
     icon: 'SparklesIcon',
     year: '2020',
-    title: 'Quality Excellence Award',
-    desc: 'For maintaining exceptional quality standards in structural engineering and design consultancy.',
+    title: 'Pride of Marathwada',
+    desc: 'From Marathwada Technologists Association, for outstanding contributions to engineering consultancy and project management.',
+    colSpan: 'lg:col-span-1',
+  },
+  {
+    icon: 'SparklesIcon',
+    year: '2020',
+    title: 'All India Achiever Award',
+    desc: 'All India Achievers Society Delhi, for excellence in engineering consultancy and project management.',
     colSpan: 'lg:col-span-1',
   },
 ];
 
 const memberships: Membership[] = [
-  { icon: 'UserGroupIcon', org: 'Indian Institute of Engineers', status: 'Life Member' },
-  { icon: 'AcademicCapIcon', org: 'Institution of Engineers (India)', status: 'Corporate Member' },
-  { icon: 'MapIcon', org: 'Indian Roads Congress', status: 'Active Member' },
+  { icon: 'AcademicCapIcon', org: 'Practising Engineers, Architects and Town Planners Association (India)', status: 'Life Member' },
+  { icon: 'AcademicCapIcon', org: 'Member of the Institution of Engineers (India)', status: 'Corporate Member' },
+  { icon: 'AcademicCapIcon', org: 'Surveyor with MCGM and Consulting Engineer', status: 'Active Member' },
 ];
 
 export default function AwardsContent() {

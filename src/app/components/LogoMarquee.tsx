@@ -22,9 +22,9 @@ const marqueeLogos: MarqueeLogo[] = [
     logo: "/assets/images/mumbai university logo.webp",
   },
   {
-    name: "Dr. BAMU",
-    abbr: "BAMU",
-    logo: "/assets/images/bamu logo.jpeg",
+    name: "Dr. Babasaheb Ambedkar Marathwada University",
+    abbr: "Babasaheb Ambedkar Marathwada University",
+    logo: "/assets/images/Babasaheb Ambedkar Marathwada University logo.jpeg",
   },
 ];
 

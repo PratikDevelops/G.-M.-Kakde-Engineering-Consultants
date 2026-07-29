@@ -58,7 +58,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'Dr. BAMU University Campus Development',
+    title: 'Dr. Babasaheb Ambedkar Marathwada University University Campus Development',
     category: 'Government',
     location: 'Aurangabad, Maharashtra',
     scope: 'Master Layout Planning & Infrastructure Design',
@@ -74,7 +74,7 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: 'Dr. BAMU Sports Complex & Ground',
+    title: 'Dr. Babasaheb Ambedkar Marathwada University Sports Complex & Ground',
     category: 'Infrastructure',
     location: 'Aurangabad, Maharashtra',
     scope: 'Architectural Planning & Structural Design',

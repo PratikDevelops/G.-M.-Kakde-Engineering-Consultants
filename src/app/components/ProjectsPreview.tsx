@@ -27,7 +27,7 @@ const projects = [
     category: 'Institutional Architecture',
     location: 'Aurangabad, MH',
     year: '2007',
-    image: "/assets/images/Bamu Auditorium.webp",
+    image: "/assets/images/Babasaheb Ambedkar Marathwada University Auditorium.webp",
     alt: 'Large custom-designed institutional auditorium building with a cream stone facade and traditional ornamental domes, tailored for rural theatrical development',
     span: 'lg:col-span-2'
   },
@@ -36,7 +36,7 @@ const projects = [
     category: 'Institutional Architecture',
     location: 'Aurangabad, MH',
     year: '2007',
-    image: "/assets/images/BAMU University.jpg",
+    image: "/assets/images/Babasaheb Ambedkar Marathwada University University.jpg",
     alt: 'Large custom-designed institutional auditorium building with a cream stone facade and traditional ornamental domes, tailored for rural theatrical development',
     span: 'lg:col-span-2'
   },

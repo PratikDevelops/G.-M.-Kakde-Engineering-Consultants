@@ -15,7 +15,7 @@ const leaders = [
   {
     name: 'Mr. Dinesh G. Kakde',
     designation: 'Director / Civil Engineer',
-    bio: 'B.E. in Civil Engineering from the University of Southampton, UK, and member of ICE & IStructE. Joined the group in 2007, leading major projects like the 1000-seat BAMU Auditorium and large residential developments.',
+    bio: 'B.E. in Civil Engineering from the University of Southampton, UK, and member of ICE & IStructE. Joined the group in 2007, leading major projects like the 1000-seat Babasaheb Ambedkar Marathwada University Auditorium and large residential developments.',
     expertise: ['Project Construction Management', 'Contracts & Agreements', 'Health & Safety (CSCS)'],
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1268aee4b-1772070309082.png",
     alt: 'Professional engineering director reviewing project documents in a modern office',
