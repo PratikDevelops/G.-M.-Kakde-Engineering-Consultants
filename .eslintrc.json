@@ -3,14 +3,13 @@
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint",
-    "prettier"
-  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
   "rules": {
     "prettier/prettier": [
       "error",
@@ -23,7 +22,7 @@
         "trailingComma": "es5"
       }
     ],
-    "@typescript-eslint/no-unused-vars": [
+    "no-unused-vars": [
       "warn",
       {
         "argsIgnorePattern": "^_",
@@ -31,7 +30,6 @@
         "caughtErrorsIgnorePattern": "^_"
       }
     ],
-    "@typescript-eslint/no-explicit-any": "warn",
     "no-console": [
       "warn",
       {
@@ -48,10 +46,5 @@
     ".next/",
     "out/",
     "public/"
-  ],
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  }
+  ]
 }

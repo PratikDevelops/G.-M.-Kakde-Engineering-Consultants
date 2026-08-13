@@ -22,9 +22,6 @@ Thumbs.db
 # Vercel deployment
 .vercel/
 
-# Optional: if using TypeScript
-*.tsbuildinfo
-
 # Optional: if using testing tools
 coverage/
 jest-test-results.json
